@@ -162,11 +162,11 @@ document.write(carteName(maisonSept));
 document.write("<br><br>Maison 8 est la somme de la Maison 6 + l'année concernée réduite entre 1 et 9, sauf 11 et 22 qui ne se réduisent pas : la météo. Votre <b>Maison 8</b>  est:   ");
 //var test = curr_date + curr_month + curr_year;//10 + 6 + 2016 =
 
-var SommeHuitAndCurrentYear = maisonSix + curr_year;
+var SommeHuitAndCurrentYear = maisonSix + reduction(curr_year,9,11,22);
 //var test2 = maisonSix + 2 + 1 + 6;
 
 //var maisonHuit = String(todayDate);
-var maisonHuit = reduction(SommeHuitAndCurrentYear, 9, 11, 22); //FunctionSommeDixExceptElevenAndTwentyToo(SommeHuitAndCurrentYear);
+var maisonHuit = reduction(SommeHuitAndCurrentYear); //FunctionSommeDixExceptElevenAndTwentyToo(SommeHuitAndCurrentYear);
 //document.write(test);
 //document.write("<br>");
 
