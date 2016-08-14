@@ -193,7 +193,7 @@ var maisonOnze = reduction(sommeSevenThreeTen); //unctionSommeVingtDeux(sommeSev
 document.write(carteName(maisonOnze));
 
 document.write("<br><br>Maison 12 est la somme des Maisons 6, 2 et 4 : la guérison. Votre <b>Maison 12</b> est:  ");
-var sommeSixTwoFour = maisonSix + maisonDeux + maisonQuatre;
+var sommeSixTwoFour = maisonSix + maisonDeux + maisonQuatre; //5 +8+ 17 = 30
 var maisonDouze = reduction(sommeSixTwoFour); //FunctionSommeVingtDeux(sommeSixTwoFour);
 document.write(carteName(maisonDouze));
 
@@ -209,6 +209,10 @@ var maisonTreize = echelleJacob + ceinture;
 maisonTreize = reduction(maisonTreize); //FunctionSommeVingtDeux(maisonTreize);
 document.write(carteName(maisonTreize));
 
+document.write("<br><br>Maison 14 est la somme des Maisons 1, 2, 3, et 4. Votre <b>Maison 14</b>  est:  ");
+var maisonQuatorze = maisonUn + maisonDeux + maisonTrois + maisonQuatre;
+maisonQuatorze = reduction(maisonQuatorze);
+document.write(carteName(maisonQuatorze));
 
 
 
