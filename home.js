@@ -164,7 +164,7 @@ document.write("<br><br>Maison 8 est la somme de la Maison 6 + l'ann√©e concern√
 
 var SommeHuitAndCurrentYear = maisonSix + reduction(curr_year,9,11,22);
 //var test2 = maisonSix + 2 + 1 + 6; 12 + 9
-alert (SommeHuitAndCurrentYear);
+//alert (SommeHuitAndCurrentYear);
 //var maisonHuit = String(todayDate);
 var maisonHuit = reduction(SommeHuitAndCurrentYear); //FunctionSommeDixExceptElevenAndTwentyToo(SommeHuitAndCurrentYear);
 //document.write(test);
