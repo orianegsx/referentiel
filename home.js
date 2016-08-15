@@ -3,7 +3,7 @@ var BirthDate = prompt('Entrez votre date de naissance de type jj.mm.aaaa:');
 var todayDate = new Date();
 var curr_date = todayDate.getDate();
 var curr_month = todayDate.getMonth();
-var curr_year = prompt('Entrez l'année de calcul: aaaa:'); //todayDate.getFullYear();
+var curr_year = todayDate.getFullYear();
 
 var m_names = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
 
