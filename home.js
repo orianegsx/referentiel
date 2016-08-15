@@ -7,7 +7,7 @@ var curr_year = todayDate.getFullYear();
 
 var m_names = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
 
-var m_arcanes = new Array("Le Mat", "I Le Bateleur", "II La Papesse", "III L'Impérarice", "IV L'Empereur", "V Le Pape", "VI L'Amoureux", "VII Le Chariot", "VIII La Justice", "VIIII L'Hermite", "X La Roue de Fortune", "XI La Force", "XII Le Pendu", "XIII L'Arcane sans nom", "XIIII La Tempérence ", "XV Le Diable", "XVI La Maison-Dieu", "XVII L'Etoile", "XVIII La Lune", "XVIIII Le Soleil", "XX Le Jugement","XI Le Monde");
+var m_arcanes = new Array("Le Mat", "I Le Bateleur", "II La Papesse", "III L'Impérarice", "IV L'Empereur", "V Le Pape", "VI L'Amoureux", "VII Le Chariot", "VIII La Justice", "VIIII L'Hermite", "X La Roue de Fortune", "XI La Force", "XII Le Pendu", "XIII L'Arcane sans nom", "XIIII La Tempérence ", "XV Le Diable", "XVI La Maison-Dieu", "XVII L'Etoile", "XVIII La Lune", "XVIIII Le Soleil", "XX Le Jugement","XI Le Monde","XII  Le mat");
 
 var day = BirthDate.split(".")[0];
 
